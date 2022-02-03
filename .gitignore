@@ -1,9 +1,11 @@
 # ignore everything in the root except the "wp-content" directory.
 wp-admin/
 wp-includes/
-*.php
-*.txt
 .htaccess
+license.txt
+wp-*.php
+xmlrpc.php
+index.php
 
 # ignore everything in the "wp-content" directory, except our child theme
 wp-content/*
