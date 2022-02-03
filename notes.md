@@ -16,3 +16,6 @@ this seems promising: https://www.wp-hasty.com/tools/wordpress-custom-post-type-
 
 maybe not custom fields with meta box but custom taxonomies
 https://awhitepixel.com/blog/create-custom-post-types-taxonomies-wordpress/
+
+## WP Plugin Developers Handbook > HTTP API
+https://developer.wordpress.org/plugins/http-api/
