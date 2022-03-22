@@ -8,12 +8,13 @@
 * Author URI: https://reclaimhosting.com
 **/
 
-/* https://awhitepixel.com/blog/create-custom-post-types-taxonomies-wordpress/ */
 add_action('init', function() {
+
+    // Domains
     register_post_type('domains', [
         'label' => __('Domains', 'txtdomain'),
         'public' => true,
-        'menu_position' => 1,
+        'menu_position' => 0,
         'menu_icon' => 'dashicons-admin-site',
         'supports' => ['title', 'author'],
         'show_in_rest' => true,
@@ -46,12 +47,31 @@ add_action('init', function() {
             'add_new_item' => __('Add New Registrar', 'txtdomain'),
             'new_item_name' => __('New Registrar Name', 'txtdomain'),
             'search_items' => __('Search Registrars', 'txtdomain'),
-            'parent_item' => __('Parent Registrar', 'txtdomain'),
-            'parent_item_colon' => __('Parent Registrar:', 'txtdomain'),
             'not_found' => __('No Registrars found', 'txtdomain'),
         ]
     ]);
     register_taxonomy_for_object_type('registrar', 'domains');
+
+    // Services
+    register_post_type('services', [
+        'label' => __('Services', 'txtdomain'),
+        'public' => true,
+        'menu_position' => 0,
+        'menu_icon' => 'dashicons-products',
+        'supports' => ['title', 'author'],
+        'show_in_rest' => true,
+        'rewrite' => ['slug' => 'service'],
+        'labels' => [
+            'singular_name' => __('Service', 'txtdomain'),
+            'add_new_item' => __('Add new service', 'txtdomain'),
+            'new_item' => __('New service', 'txtdomain'),
+            'view_item' => __('View service', 'txtdomain'),
+            'not_found' => __('No services found', 'txtdomain'),
+            'not_found_in_trash' => __('No services found in trash', 'txtdomain'),
+            'all_items' => __('All services', 'txtdomain'),
+            'insert_into_item' => __('Insert into services', 'txtdomain')
+        ],		
+    ]);
 
 });
 ?>
