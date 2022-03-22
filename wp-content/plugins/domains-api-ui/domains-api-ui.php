@@ -13,7 +13,7 @@ add_action('init', function() {
     register_post_type('domains', [
         'label' => __('Domains', 'txtdomain'),
         'public' => true,
-        'menu_position' => 5,
+        'menu_position' => 1,
         'menu_icon' => 'dashicons-admin-site',
         'supports' => ['title', 'author'],
         'show_in_rest' => true,
