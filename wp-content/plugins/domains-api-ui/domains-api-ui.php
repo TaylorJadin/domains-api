@@ -14,7 +14,7 @@ add_action('init', function() {
     register_post_type('domains', [
         'label' => __('Domains', 'txtdomain'),
         'public' => true,
-        'menu_position' => 1.0,
+        'menu_position' => 5,
         'menu_icon' => 'dashicons-admin-site',
         'supports' => ['title', 'author'],
         'show_in_rest' => true,
@@ -35,7 +35,7 @@ add_action('init', function() {
     register_post_type('services', [
         'label' => __('Services', 'txtdomain'),
         'public' => true,
-        'menu_position' => 1.1,
+        'menu_position' => 5,
         'menu_icon' => 'dashicons-products',
         'supports' => ['title', 'author'],
         'show_in_rest' => true,
@@ -56,7 +56,7 @@ add_action('init', function() {
     register_post_type('applications', [
         'label' => __('Applications', 'txtdomain'),
         'public' => true,
-        'menu_position' => 1.2,
+        'menu_position' => 5,
         'menu_icon' => 'dashicons-superhero-alt',
         'supports' => ['title', 'author'],
         'show_in_rest' => true,
