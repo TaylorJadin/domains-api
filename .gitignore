@@ -6,8 +6,11 @@ license.txt
 wp-*.php
 xmlrpc.php
 index.php
+readme.html
+error_log
 
-# ignore everything in the "wp-content" directory, except our child theme
+# ignore everything in the "wp-content" directory, except our plugin
 wp-content/*
-!wp-content/themes/
-wp-content/themes/twentytwentytwo/
+!wp-content/plugins/
+wp-content/plugins/index.php
+wp-content/plugins/limit-login-attempts-reloaded
