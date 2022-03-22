@@ -19,3 +19,6 @@ https://awhitepixel.com/blog/create-custom-post-types-taxonomies-wordpress/
 
 ## WP Plugin Developers Handbook > HTTP API
 https://developer.wordpress.org/plugins/http-api/
+
+## starting over with a plugin and custom post types and taxonomy 2022-03-22
+https://awhitepixel.com/blog/create-custom-post-types-taxonomies-wordpress/ 
