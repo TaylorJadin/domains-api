@@ -25,3 +25,6 @@ https://awhitepixel.com/blog/create-custom-post-types-taxonomies-wordpress/
 
 ## dashicons
 https://developer.wordpress.org/resource/dashicons/#admin-site
+
+## maybe I should just use ACF?
+https://awhitepixel.com/blog/advanced-custom-fields-coding-introduction/
