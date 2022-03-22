@@ -4,7 +4,7 @@
 * Plugin URI: https://github.com/TaylorJadin/domains-api-ui
 * Description: This plugin adds custom post types and taxonomies for the Domains API.
 * Version: 0.1
-* Author: Taylor Jadin, Reclaim Hosting
+* Author: Reclaim Hosting
 * Author URI: https://reclaimhosting.com
 **/
 
