@@ -14,7 +14,7 @@ add_action('init', function() {
         'label' => __('Domains', 'txtdomain'),
         'public' => true,
         'menu_position' => 5,
-        'menu_icon' => 'dashicons-site',
+        'menu_icon' => 'dashicons-admin-site',
         'supports' => ['title', 'author'],
         'show_in_rest' => true,
         'rewrite' => ['slug' => 'domain'],
