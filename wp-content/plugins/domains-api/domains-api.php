@@ -1,8 +1,8 @@
 <?php
 /**
-* Plugin Name: Domains API UI
+* Plugin Name: Domains API
 * Plugin URI: https://github.com/TaylorJadin/domains-api-ui
-* Description: This plugin adds custom post types for the Domains API.
+* Description: This plugin calls the Domains API after form submissions.
 * Version: 0.1
 * Author: Reclaim Hosting
 * Author URI: https://reclaimhosting.com
