@@ -8,5 +8,4 @@
 * Author URI: https://reclaimhosting.com
 **/
 
-}
 ?>
